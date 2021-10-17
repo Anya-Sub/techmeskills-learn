@@ -1,8 +1,40 @@
-body {
+.social__media{
+  display: flex;
+  justify-content: space-around;
   font-family: 'Open Sans Condensed', sans-serif;
   margin: 0;
   padding-left: 110px;
   padding-right: 110px;
+  background-color: #F8EFEF;
+}
+
+.social__media__text {
+  width: 30%;
+  padding-left: 111px;
+}
+
+.social__media__text__head {
+  color: #333333;
+  font-size: 20px;
+}
+
+.social__media__text__main {
+  color: #86878B;
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+.social__media__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  padding-right: 111px;
+}
+
+.social__media__links img {
+  width: 50px;
+  height: 50px;
 }
 
 .main {
@@ -10,6 +42,10 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+  padding-left: 110px;
+  padding-right: 110px;
 }
 
 .main__download {
@@ -25,6 +61,9 @@ body {
   flex-direction: column;
 
 }
+.hover:hover{
+  background-color: ;
+}
 
 .main__download__tabs__element {
   width: 112px;
@@ -38,8 +77,8 @@ body {
   border-radius: 4px;
 }
 
-#tab-red {
-  background:rgba(236, 121, 121, 1);
+.hover:hover{
+  background-color:rgba(236, 121, 121, 1);
 }
 
 .main__download__text {
@@ -50,11 +89,23 @@ body {
   margin-left: 100px;
 }
 
+.main__download__text__header {
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main__download__text__main {
+  color: rgba(134, 135, 139, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+}
+
 .main__download__text__header h1{
   margin: 0;
   margin-top: 10px;
   font-size: 20px;
-font-weight: bold; 
+  font-weight: bold; 
 }
 
 .main__download__text__footer button{
@@ -70,6 +121,10 @@ font-weight: bold;
   border-top: 2px solid red;
 }
 
+.main__download__town {
+  width: 320px;
+  height: 253px;
+}
 
 .main__benefits {
   display: flex;
@@ -94,7 +149,7 @@ font-weight: bold;
   font-family: 'Open Sans', sans-serif;
 }
 
-.main__benefits__header h1 {
+.main__benefits__header h2 {
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
 }
@@ -134,21 +189,3 @@ font-weight: bold;
   width: 60px;
   height: 60px;
 }
-.main__download__text__main {
-  color: rgba(134, 135, 139, 1);
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  line-height: 19px;
-}
-
-
-.main__download__text__header {
-display: flex;
-color: rgba(0, 0, 0, 1);
-font-family: 'Open Sans', sans-serif;
-}
-.main__download__town {
-  width: 320px;
-  height: 253px;
-}
-
