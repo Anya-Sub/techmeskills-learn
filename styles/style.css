@@ -34,6 +34,8 @@
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 27px;
 }
 
 .our__story__main__text p {
@@ -42,6 +44,8 @@
   font-weight: normal;
   font-size: 13px;
   color: #48555B;
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 23px;
 }
 
 .our__story__main__text span {
