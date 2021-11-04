@@ -104,15 +104,15 @@
 
 @media (max-width: 900px) {
   .image-vidget{
-    width: 250px;
-    height: 350px;
+    width: 150px;
+    height: 250px;
   }
 }
 
 @media (max-width: 483px) {
   .image-vidget {
-    width: 300px;
-    height: 400px;
+    width: 100px;
+    height: 200px;
   }
 
 }
