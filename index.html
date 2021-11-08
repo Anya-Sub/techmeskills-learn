@@ -2,124 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./styles/style.css" rel="stylesheet" type="text/css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,100;1,200&display=swap" rel="stylesheet">
-  <title>Maket</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.scss">
+  <title>Parcel Tutorial</title>
 </head>
-<body>
-  <aside class="social__media">
-    <div class="social__media__text">
-      <h2 class="social__media__text__head">
-        Social Media
-      </h2>
-      <p class="social__media__text__main">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Aenean euismod bibendum laoreet.
-      </p>
+  <body>
+    <div class="container">
+      <div class="container__content">
+        <h1>Today is:</h1>
+        <span class="today"></span>
+        <h2><font color="#3AC1EF">and the image of the day:</font></h2>
+        <img align="center" src="https://source.unsplash.com/random/600x400" alt="unsplash random image">
+      </div>
     </div>
-    <div class="social__media__links">
-      <a target="_blank" href="https://www.facebook.com/"><img src="./images/facebook.png" alt="facebook"></a>
-      <a target="_blank" href="https://twitter.com/"><img src="./images/twitter.png" alt="Twitter"></a>
-      <a target="_blank" href="https://www.google.by/"><img src="./images/google.png" alt="Google"></a>
-      <a target="_blank" href="https://www.Pininterest.com/"><img src="./images/pininterest.png" alt="Pininterest"></a>
-      <a target="_blank" href="https://www.instagram.com/"><img src="./images/insta.png" alt="instagram"></a>
-      <a target="_blank" href="https://rss.com/"></a><img src="./images/snake.png" alt="snake">
-      <a target="_blank" href= "https://www.stumbleupon.com/"></a><img src="./images/wifi.png" alt="wifi">
-    </div>
-  </aside>
-  <div class="main">
-    <section class="main__download">
-
-      <ul class="main__download__tabs">
-        <li 
-          id="tab-red"
-          class="main__download__tabs__element hover" 
-        >
-          <h3>TAB 1</h3>
-      </li>
-        <li class="main__download__tabs__element hover">
-          <h3>TAB 1</h3>
-        </li>
-        <li class="main__download__tabs__element hover">
-          <h3>TAB 1</h3>
-        </li>
-      </ul>
-
-      <div class="main__download__text">
-        <div class="main__download__text__header">
-          <h2>tabs with soft transitioning effect.</h2>
-        </div>
-      
-        <div class="main__download__text__main">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-            penatibus et magnis dis parturient montes.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-            bibendum laoreet.
-          </p>  
-        </div>
-        <form class="main__download__text__footer">
-          <button >
-            Download
-          </form>
-      </div>
-      <img class="main__download__town" src="./images/town.png" alt="town">
-    </section>
-
-    <section class="main__benefits">
-      <div class="main__benefits__header">
-        <h2>why this is awesome</h2>
-        <div class="border-red"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </div>
-
-      <div class="main__benefits__chips">
-        <div class="main__benefits__chips__part">
-          <div class="main__benefits__chips__part__img-container">
-            <img src="./images/lampa.svg" alt="lampa">
-          </div> 
-          <h3>Thoughtful Design</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing 
-            elit.Anean euismod bibendum laoreet.Proin
-            gravida dolor sit amet lacus accumsan et viverra.
-          </p>
-        </div>
-  
-        <div class="main__benefits__chips__part">
-          <div class="main__benefits__chips__part__img-container">
-            <img src="./images/klava.svg" alt="klava">
-          </div>
-          <h3>Well Crafted</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing 
-            elit.Anean euismod bibendum laoreet.Proin
-            gravida dolor sit amet lacus accumsan et viverra.
-          </p>
-        </div>
-  
-        <div class="main__benefits__chips__part">
-          <div class="main__benefits__chips__part__img-container">
-            <img src="./images/molnia.svg" alt="molnia">
-          </div>
-          <h3>Easy to customize</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing 
-            elit.Anean euismod bibendum laoreet.Proin
-            gravida dolor sit amet lacus accumsan et viverra.
-          </p>
-        </div>
-      </div>
-
-    </section>
-  </div>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
